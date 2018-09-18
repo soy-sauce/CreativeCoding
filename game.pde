@@ -1,4 +1,3 @@
-
 float angle=0;  //angle of branches
 float weight=1; //weight of stroke
 int dist; //distance from tree
