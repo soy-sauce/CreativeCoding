@@ -10,10 +10,10 @@ function preload(){
 
 function setup(){
 
-  createCanvas(1000,1000);
+  createCanvas(250,1000);
   background(230);
-  textSize(100);
-  text("Color Palettes",400,400,500,500);
+  textSize(30);
+  text("Color Palettes",10,10,500,100);
   console.log(data.palettes.length);
 
 
@@ -25,9 +25,9 @@ function setup(){
         var txt="Palette: "+str(i+1);
         textSize(10);
         fill(0);
-        text(txt,10,i*20,100,100);
+        text(txt,10,i*20+70,100,100);
         fill(data.palettes[i][j]);
-        rect(j*20+100,i*20,10,10);
+        rect(j*20+100,i*20+70,10,10);
       }
 
 
