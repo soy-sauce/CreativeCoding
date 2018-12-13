@@ -1,3 +1,5 @@
+//music from freesounds.com and City Girl
+
 import processing.sound.*;
 import processing.serial.*;
 Serial port;
